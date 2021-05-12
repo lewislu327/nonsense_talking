@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="col-12">
+    <h1 class="text-center mt-5" >你想對誰說幹話</h1>
+  </div>
+  <form class="text-center" action="/" method="POST">
+    <div class="row">
+      <div class="col-4">
+        <img style="height: 260px" src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg" alt="">
+        <div class="footer text-center mt-4">
+          <input class="form-check-input" type="radio" id="engineer" name="people" value="engineer" {{#is people 'engineer' }} checked {{/is}} >
+          <label class="form-check-label" name="engineer" for="engineer">工程師</label>
+        </div>
+      </div>
+      <div class="col-4">
+        <img style="height: 260px;"src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg" alt="">
+        <div class="footer text-center mt-4">
+          <input class="form-check-input" type="radio" id="designer" name="people" value="designer" {{#is people 'designer' }} checked {{/is}}>
+          <label class="form-check-label" name="designer" for="engineer">設計師</label> 
+        </div>
+      </div>
+      <div class="col-4">
+        <img style="height: 260px" src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg" alt="">
+        <div class="footer text-center mt-4">
+          <input class="form-check-input" type="radio" id="entrepreneur" name="people" value="entrepreneur" {{#is people 'entrepreneur' }} checked {{/is}}>
+          <label class="form-check-label" name="entrepreneur" for="entrepreneur">企業家</label>
+        </div>
+      </div>    
+    </div>
+
+    <div class="row text-center mt-5">
+      <div class="col-4">        
+        <button class="btn btn-danger" type="submit">產生幹話</button>
+      </div>
+      <div class="col-8">
+        <textarea cols="90" rows="5">{{bsWord}}</textarea>
+      </div>
+    </div>
+  </form>
+</div>
+
