@@ -1,31 +1,37 @@
 # Nonsense Talking Web App
 
-A simple web application for nonsense talking
+A simple web application build from Node.js & Express
 
 # Project Running Environment
 
-Node.js: 4.17.1  
-Express-handlebars 5.3.0  
-Handlebars-helpers: 0.11.0
+- Node.js: v10.15.0
+- Express: v4.17.1
+- Express-handlebars v5.3.0
+- Handlebars-helpers: v0.11.0
 
-## Installation
+## Main Feature
 
-1. clone this project
+- Chose one character: Engineer, Designer, Entrepreneur
+- Click button Generate to generate some nonsense talking
+
+## Installation & Execution
+
+1. Clone this project into you folder
 
 ```
    $ git clone https://github.com/lewislu327/nonsense_talking.git
 ```
 
-2. Install npm Express & Handlebars
-
-```
-   $ npm i express express-handlebars
-```
-
-3. cd to project folder
+2. cd to project folder
 
 ```
    cd nonsense_talking
+```
+
+3. Install npm Express & Handlebars
+
+```
+   $ npm install
 ```
 
 4. Run this app
@@ -40,10 +46,6 @@ Handlebars-helpers: 0.11.0
    Express is listening on http://localhost:3000
 ```
 
-## Features
-
-- Click different characters would generate random nonsense talking
-
-## Author
+## Contributor
 
 Lewis Lu
