@@ -1,6 +1,7 @@
 # Nonsense Talking Web App
 
 A simple web application build from Node.js & Express
+[<img align="center" src="https://github.com/lewislu327/nonsense_talking/blob/master/Public/images/Homepage.png" height="400" width="800" />]()
 
 # Project Running Environment
 
